@@ -1,0 +1,44 @@
+/* General settings for the body of the page */
+body {
+  font-family: Arial, sans-serif; /* Set font for text */
+  background-color: #f8f8f8; /* Set background color */
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use Flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 100vh; /* Set height to 100% of the viewport height */
+}
+
+/* Settings for the menu */
+.menu {
+  background-color: #f3e8e8; /* Set background color for the menu */
+  border: 1px solid #ddd; /* Set border for the menu */
+  padding: 20px; /* Set padding inside the menu */
+  width: 500px; /* Set width of the menu */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Set shadow for the menu */
+}
+
+/* Settings for the menu title */
+.menu h2 {
+  margin-top: 0; /* Remove top margin of the title */
+  padding: 10px; /* Set padding inside the title */
+}
+
+/* Settings for the menu list */
+.menu ul {
+  padding: 0; /* Remove default padding of the list */
+}
+
+/* Settings for the menu list items */
+.menu li {
+  padding: 10px; /* Set padding inside the list items */
+  display: flex; /* Use Flexbox for layout of list items */
+  justify-content: space-between; /* Distribute space evenly between items */
+  align-items: center; /* Center items vertically */
+}
+
+/* Settings for the hover state of menu list items */
+.menu li:hover {
+  background-color: #89c0b4; /* Change background color on hover */
+}
